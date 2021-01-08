@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Scrollspy from 'react-scrollspy';
-
-import { Container } from '@components/global';
 import {
+  Brand,
+  Mobile,
+  MobileMenu,
   Nav,
   NavItem,
-  Brand,
-  StyledContainer,
   NavListWrapper,
-  MobileMenu,
-  Mobile,
+  StyledContainer,
 } from './style';
+import React, { Component } from 'react';
 
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Container } from '@components/global';
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
+import Scrollspy from 'react-scrollspy';
 
-const NAV_ITEMS = ['About', 'Brands', 'Team', 'FAQ'];
+const NAV_ITEMS = ['關於', '時間地點', '主辦單位', '問與答'];
 
 class Navbar extends Component {
   state = {
@@ -59,7 +58,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>Absurd</Brand>
+          <Brand>J & N Wedding</Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
