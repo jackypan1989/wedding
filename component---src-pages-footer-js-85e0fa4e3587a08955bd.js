@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{plYg:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),i=t.n(a),l=t("vOnD").c.div.withConfig({displayName:"Footer__StyledContainer",componentId:"sc-5kwv4m-0"})(["text-align:center;padding:30px;background-color:#FFE4CA;line-height:24px;"]);n.default=function(){return i.a.createElement(l,null,i.a.createElement("div",null,"Made by jackypan1989@gmail.com"),i.a.createElement("div",null,"祝大家幸福快樂"))}}}]);
+//# sourceMappingURL=component---src-pages-footer-js-85e0fa4e3587a08955bd.js.map
