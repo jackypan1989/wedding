@@ -17,6 +17,6 @@ const StyledContainer = styled.div`
 `;
 
 export default () => {
-  return <StyledContainer id='關於'>
+  return <StyledContainer id='關於我們'>
   </StyledContainer>
 }

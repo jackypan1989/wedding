@@ -14,7 +14,7 @@ import { Container } from '@components/global';
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 import Scrollspy from 'react-scrollspy';
 
-const NAV_ITEMS = ['關於', '時間地點', '主辦單位', '問與答'];
+const NAV_ITEMS = ['關於我們', '時間地點', '主辦單位'];
 
 class Navbar extends Component {
   state = {
@@ -58,7 +58,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>J & N Wedding</Brand>
+          <Brand>Jacky 💍 Neo</Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
