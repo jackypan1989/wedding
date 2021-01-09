@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledContainer = styled.div`
   text-align: center;
   padding: 30px;
-  background-color: ${props => props.theme.color.primary};
+  background-color: #FFE4CA;
   line-height: 24px;
 `;
 
